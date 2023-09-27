@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Renderer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Renderer">
+				<Option output="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Renderer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Renderer"/>
+					<CompileFile command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Renderer/fast">
+				<Option output="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Renderer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Renderer/fast"/>
+					<CompileFile command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/Users/cameron/Desktop/CProjects/Renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/Cube.hpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/Object3D.hpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/Rect.hpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/Rect3D.hpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/Renderer.hpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/Util.hpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/main.cpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/cameron/Desktop/CProjects/Renderer/../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
